@@ -1,4 +1,4 @@
-# Excel Advanced Financial Analysis — Portfolio Project
+# Excel Task Performance Analysis - Portfolio Project
 
 A polished, Excel-based project management and financial analysis dashboard designed to showcase my ability to turn data into clear, actionable insights for cross-functional teams and leadership.
 
@@ -56,33 +56,17 @@ Excel features and techniques used:
 - Days remaining: due date − today() (automated countdown)
 - Over-budget detection: conditional checks that flag any task where actual > allocated
 
-## Questions recruiters might ask — and short answers
-- What problem did this solve?
-  - It centralizes task, budget, and timeline tracking so teams and leadership can see project health and prioritize resources.
-- What was your role and contribution?
-  - I designed the dashboard layout, implemented formulas and validation, built the visualizations, and created the logic for alerts and KPIs.
-- Which stakeholders benefited from this?
-  - Project managers, finance teams, department heads, and executives who need concise, actionable metrics.
-- How would you scale or improve this?
-  - Move to a connected data source (Power Query / Power BI) for automation when data grows, add scenario modeling, and integrate simple workflow notifications.
-
-## Portfolio highlights — what this demonstrates
+## Portfolio highlights - what this demonstrates
 - Advanced data analysis using Excel to support business decisions
 - Strong attention to detail in KPI and dashboard design
 - Ability to present financial and project status clearly for non-technical stakeholders
 - Cross-functional coordination: one view that reflects Finance, HR, IT, and Admin needs
 
 ## Use cases
-- Project managers: monitor multi-department initiatives and allocate resources
+- Project managers can monitor multi-department initiatives and allocate resources
 - Finance teams: track spending, detect variance, and forecast budgets
-- Executive leadership: review high-level KPIs and quickly assess project health
-- Department heads: manage assignments and ensure deadlines are met
-
-## What I would present in an interview
-- A short walkthrough of the dashboard showing: how to change filters, how an over-budget condition appears, and how to interpret the completion and timeline visualizations
-- Before/after examples showing decisions driven by the dashboard (e.g., reallocating budget or reassigning resources to unblock a delayed task)
-
----
+- Executive leadership to review high-level KPIs and quickly assess project health
+- Department head can manage assignments and ensure deadlines are met
 
 If you'd like, I can:
 - Keep this draft as-is, or tailor the language to a specific role (e.g., Financial Analyst, Data Analyst, Product Manager).
