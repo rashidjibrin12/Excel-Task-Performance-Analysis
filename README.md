@@ -1,44 +1,23 @@
-# Excel Advanced Financial Analysis
+# Excel Advanced Financial Analysis — Portfolio Project
 
-##  Project Overview
+A polished, Excel-based project management and financial analysis dashboard designed to showcase my ability to turn data into clear, actionable insights for cross-functional teams and leadership.
 
-A comprehensive Excel-based project management and financial analysis dashboard designed to track departmental tasks, budgets, and project completion metrics. This solution demonstrates advanced Excel capabilities including dynamic data visualization, budget tracking, and cross-departmental task management.
+## Project overview
+This project demonstrates a real-world dashboard built in Excel that tracks departmental tasks, budgets, timelines, and performance metrics. It’s intended as a portfolio piece for recruiters and hiring managers to see how I structure data, automate KPIs, and create visualizations that drive decision-making.
 
-##  Key Features
+Snapshots from the dashboard:
+- ![Dashboard screenshot 1](https://github.com/user-attachments/assets/2eec5a2c-295f-41c5-bdad-42d933d5026a)
+- ![Dashboard screenshot 2](https://github.com/user-attachments/assets/6cada4ae-bc53-4bd6-b11a-89a4a3cbc58e)
 
-### Project Management Dashboard
-- **Multi-Department Tracking**: Coordinated management across Finance, HR, IT, and Administrative departments
-- **Real-Time Status Monitoring**: Visual indicators for task progress (In Progress, Completed, Delayed, Not Started)
-- **Budget Oversight**: Comprehensive budget allocation and expenditure tracking
-- **Performance Analytics**: Completion percentage metrics and timeline management
+## Key features
+- Project management across Finance, HR, IT, and Admin with clear task ownership
+- Real-time status indicators and conditional formatting for quick triage
+- Budget tracking and variance analysis to flag over- and under-spending
+- Performance analytics including completion rates, days remaining, and resource vs. budget comparisons
+- Interactive controls: dropdowns for department, status, and priority to keep the model consistent and user-friendly
+- Visualizations for budget variance and completion percentage to support executive reporting
 
-### Performance Metrics
-- **Completed Tasks**: 3 successfully delivered projects
-- **Average Completion Rate**: 59.38% across all active initiatives
-- **Timeline Management**: Days remaining and over-budget flags for proactive project control
-- **Resource Allocation**: Hours spent vs. budgeted hours for each task
-
-### Dashboard Capabilities
-- **Priority-Based Visualization**: Color-coded priority levels (High, Medium, Low)
-- **Status Indicators**: Yellow (In Progress), Green (Completed), Red (Delayed), Gray (Not Started)
-- **Budget Variance Analysis**: Real-time tracking of over/under-budget projects
-- **Task Duration Metrics**: Complete visibility into project timelines
-
-
-
-
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/2eec5a2c-295f-41c5-bdad-42d933d5026a" />
-
-
-
-
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/6cada4ae-bc53-4bd6-b11a-89a4a3cbc58e" />
-
-
-
-
-##  Project Tasks Tracked
-
+## Project tasks tracked
 | Department | Task | Status | Priority | Budget | Completion |
 |-----------|------|--------|----------|--------|------------|
 | Finance | Prepare Q2 Report | In Progress | High | $4,500 | 65% |
@@ -50,47 +29,61 @@ A comprehensive Excel-based project management and financial analysis dashboard 
 | IT | Software Updates | In Progress | High | $3,600 | 20% |
 | Admin | Meeting Coordination | Completed | Low | $150 | 100% |
 
-##  Technical Implementation
+## Key findings (executive summary)
+- Total budget allocated across tracked tasks: $23,700
+- Completed: 3 projects; In Progress: 3 projects; Delayed: 1 project; Not Started: 1 project
+- Average completion rate across active initiatives: 59.38%
+- Four high-priority tasks require focused attention; one high-priority IT task is delayed and flagged for intervention
+- Several projects show negative days remaining — an early warning to re-evaluate timelines or reallocate resources
 
-### Excel Features Utilized
-- **Formulas & Functions**: SUMIF, COUNTIF, and conditional aggregation
-- **Conditional Formatting**: Dynamic color-coding for status and priority levels
-- **Data Validation**: Dropdown lists for status, priority, and department selection
-- **Charts & Visualizations**: Budget variance and completion percentage analysis
-- **Summary Metrics**: Automated KPI calculations
+## Visualizations and dashboard highlights
+- Priority-based color coding (High/Medium/Low) to surface urgent items
+- Status indicators: Green = Completed, Yellow = In Progress, Red = Delayed, Gray = Not Started
+- Budget variance charts that update when actuals are entered, enabling quick identification of over-budget items
+- Completion percentage gauges and timeline views to show progress at-a-glance
 
-### Key Formulas
-- **Completion Rate Calculation**: Dynamic percentage tracking based on task status
-- **Budget Variance**: Real-time comparison of allocated vs. actual spending
-- **Days Remaining**: Automated countdown from due date
-- **Over-Budget Detection**: Conditional alerts for budget overruns
+## Technical implementation
+Excel features and techniques used:
+- Core formulas: SUMIF, COUNTIF, and conditional aggregation to produce dynamic KPIs
+- Conditional formatting: custom rules to color-code status and priority
+- Data validation: dropdown lists to enforce consistent labels for department, status, and priority
+- Charts & visualizations: bar/column charts and conditional charts for budget and completion analysis
+- Automation: formula-driven "Days Remaining" counters and "Over-Budget" flags for proactive alerts
 
-##  Dashboard Insights
+### Key formulas (conceptual)
+- Completion rate: calculated as completed work / total planned work (dynamic based on status and percent-complete)
+- Budget variance: allocated budget − actual spend (with conditional formatting to highlight negative variance)
+- Days remaining: due date − today() (automated countdown)
+- Over-budget detection: conditional checks that flag any task where actual > allocated
 
-### Current Project Status
-- **In Progress**: 3 active tasks requiring attention
-- **Completed**: 3 successfully delivered tasks
-- **Delayed**: 1 high-priority task requiring intervention
-- **Not Started**: 1 pending task awaiting initiation
+## Questions recruiters might ask — and short answers
+- What problem did this solve?
+  - It centralizes task, budget, and timeline tracking so teams and leadership can see project health and prioritize resources.
+- What was your role and contribution?
+  - I designed the dashboard layout, implemented formulas and validation, built the visualizations, and created the logic for alerts and KPIs.
+- Which stakeholders benefited from this?
+  - Project managers, finance teams, department heads, and executives who need concise, actionable metrics.
+- How would you scale or improve this?
+  - Move to a connected data source (Power Query / Power BI) for automation when data grows, add scenario modeling, and integrate simple workflow notifications.
 
-### Financial Overview
-- **Total Budget Allocated**: $23,700
-- **High Priority Tasks**: 4 requiring focused attention
-- **Budget Concerns**: Multiple projects showing negative days remaining
+## Portfolio highlights — what this demonstrates
+- Advanced data analysis using Excel to support business decisions
+- Strong attention to detail in KPI and dashboard design
+- Ability to present financial and project status clearly for non-technical stakeholders
+- Cross-functional coordination: one view that reflects Finance, HR, IT, and Admin needs
 
-##  Portfolio Highlights
+## Use cases
+- Project managers: monitor multi-department initiatives and allocate resources
+- Finance teams: track spending, detect variance, and forecast budgets
+- Executive leadership: review high-level KPIs and quickly assess project health
+- Department heads: manage assignments and ensure deadlines are met
 
-This project showcases:
--  **Advanced Data Analysis**: Multi-dimensional project tracking and reporting
--  **Business Intelligence**: KPI development and performance monitoring
--  **Cross-Functional Coordination**: Department-level task management
--  **Financial Planning**: Budget allocation and variance analysis
--  **Executive Reporting**: Summary metrics and status dashboards
+## What I would present in an interview
+- A short walkthrough of the dashboard showing: how to change filters, how an over-budget condition appears, and how to interpret the completion and timeline visualizations
+- Before/after examples showing decisions driven by the dashboard (e.g., reallocating budget or reassigning resources to unblock a delayed task)
 
-##  Use Cases
+---
 
-- **Project Managers**: Monitor multi-departmental initiatives and resource allocation
-- **Finance Teams**: Track budget spending and forecast financial requirements
-- **Executive Leadership**: Review high-level KPIs and project health status
-- **Department Heads**: Manage team task assignments and deadline compliance
-
+If you'd like, I can:
+- Keep this draft as-is, or tailor the language to a specific role (e.g., Financial Analyst, Data Analyst, Product Manager).
+- Create a short one-page summary suitable for LinkedIn or include a short bullet list of measurable outcomes for a resume.
