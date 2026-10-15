@@ -3,7 +3,7 @@
 A polished, Excel-based project management and financial analysis dashboard designed to showcase my ability to turn data into clear, actionable insights for cross-functional teams and leadership.
 
 ## Project overview
-This project demonstrates a real-world dashboard built in Excel that tracks departmental tasks, budgets, timelines, and performance metrics. It’s intended as a portfolio piece for recruiters and hiring managers to see how I structure data, automate KPIs, and create visualizations that drive decision-making.
+This project demonstrates a real-world dashboard built in Excel that tracks departmental tasks, budgets, timelines, and performance metrics. It is intended as a portfolio piece for recruiters and hiring managers to see how I structure data, automate KPIs, and create visualizations that drive decision-making.
 
 Snapshots from the dashboard:
 - ![Dashboard screenshot 1](https://github.com/user-attachments/assets/2eec5a2c-295f-41c5-bdad-42d933d5026a)
@@ -29,14 +29,14 @@ Snapshots from the dashboard:
 | IT | Software Updates | In Progress | High | $3,600 | 20% |
 | Admin | Meeting Coordination | Completed | Low | $150 | 100% |
 
-## Key findings (executive summary)
+## Key findings
 - Total budget allocated across tracked tasks: $23,700
 - Completed: 3 projects; In Progress: 3 projects; Delayed: 1 project; Not Started: 1 project
 - Average completion rate across active initiatives: 59.38%
 - Four high-priority tasks require focused attention; one high-priority IT task is delayed and flagged for intervention
 - Several projects show negative days remaining — an early warning to re-evaluate timelines or reallocate resources
 
-## Visualizations and dashboard highlights
+## Visualizations highlights
 - Priority-based color coding (High/Medium/Low) to surface urgent items
 - Status indicators: Green = Completed, Yellow = In Progress, Red = Delayed, Gray = Not Started
 - Budget variance charts that update when actuals are entered, enabling quick identification of over-budget items
@@ -50,13 +50,13 @@ Excel features and techniques used:
 - Charts & visualizations: bar/column charts and conditional charts for budget and completion analysis
 - Automation: formula-driven "Days Remaining" counters and "Over-Budget" flags for proactive alerts
 
-### Key formulas (conceptual)
+### Key formulas
 - Completion rate: calculated as completed work / total planned work (dynamic based on status and percent-complete)
 - Budget variance: allocated budget − actual spend (with conditional formatting to highlight negative variance)
 - Days remaining: due date − today() (automated countdown)
 - Over-budget detection: conditional checks that flag any task where actual > allocated
 
-## Portfolio highlights - what this demonstrates
+## Skills demonstrated
 - Advanced data analysis using Excel to support business decisions
 - Strong attention to detail in KPI and dashboard design
 - Ability to present financial and project status clearly for non-technical stakeholders
@@ -67,7 +67,3 @@ Excel features and techniques used:
 - Finance teams: track spending, detect variance, and forecast budgets
 - Executive leadership to review high-level KPIs and quickly assess project health
 - Department head can manage assignments and ensure deadlines are met
-
-If you'd like, I can:
-- Keep this draft as-is, or tailor the language to a specific role (e.g., Financial Analyst, Data Analyst, Product Manager).
-- Create a short one-page summary suitable for LinkedIn or include a short bullet list of measurable outcomes for a resume.
