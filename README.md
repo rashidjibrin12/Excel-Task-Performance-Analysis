@@ -6,7 +6,8 @@ A polished, Excel-based project management and financial analysis dashboard desi
 This project demonstrates a real-world dashboard built in Excel that tracks departmental tasks, budgets, timelines, and performance metrics. It is intended as a portfolio piece for recruiters and hiring managers to see how I structure data, automate KPIs, and create visualizations that drive decision-making.
 
 Snapshots from the dashboard:
-- ![Dashboard screenshot 1](https://github.com/user-attachments/assets/2eec5a2c-295f-41c5-bdad-42d933d5026a)
+- ![Dashboard screenshot 1](https://github.com/user-attachments/assets/4f0a28cd-ee2e-456b-b88b-a61f4f88fc3b) />
+
 - ![Dashboard screenshot 2](https://github.com/user-attachments/assets/6cada4ae-bc53-4bd6-b11a-89a4a3cbc58e)
 
 ## Key features
